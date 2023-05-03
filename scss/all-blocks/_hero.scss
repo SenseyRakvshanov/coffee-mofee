@@ -1,0 +1,28 @@
+.hero {
+       padding: 50px 0px;
+       background-image: url("../../assets/images/photo_2023-05-02_11-51-32.jpg");
+
+    &__container{
+        background-repeat: no-repeat;
+        background-size: 100%, 600px;
+    }
+
+    &__inner{
+    color: aliceblue;
+     max-width: 50%;
+     padding: 100px 0 100px 85px;
+     h1{
+        font-family: "Fraunces";
+        width: 100%;
+        font-size: $large-font ;
+        line-height: 1;
+    }
+    
+    p{
+        width: 80%;
+        color: $grey;
+        margin-bottom: 40px;
+    }
+    }
+
+}   
